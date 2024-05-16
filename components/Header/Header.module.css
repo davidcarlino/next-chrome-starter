@@ -3,5 +3,10 @@
     justify-content: center;
     width: 400px;
     font-size: medium;
-    color: #757bc3;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#__next > p {
+    color: #000000;
 }

@@ -1,10 +1,25 @@
 .container {
   width: 400px;
   height: 485px;
-  background: linear-gradient(153deg, rgb(116, 56, 216), rgb(18, 150, 170) 74%);
+  background: linear-gradient(153deg, rgb(255, 255, 255), rgb(255, 255, 255) 74%);
   padding: 5px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
+
+
+.portalButton {
+			color: #ffffff;
+			background-color: #000000;
+			font-size: 21px;
+			border: 1px solid #000000;
+			padding: 15px 90px;
+			cursor: pointer
+		}
+.portalButton:hover {
+			color: #000000;
+			background-color: #ffffff;
+		}
+
 
 .main {
   width: 390px;
@@ -28,7 +43,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #000000;
   color: grey;
   border-radius: 5px;
   padding: 20px;
