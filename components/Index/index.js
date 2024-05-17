@@ -15,8 +15,15 @@ export default function Index({ navigateToPage }) {
         <p className={styles.description}>
         </p>
         
-      	<button className={styles.portalButton} type="button" name="portalButton" autofocus>Go To Portal</button>
+      	<button className={styles.portalButton} type="button" name="portalButton"  autofocus onclick="navigate()">Go To Portal</button>
         
+        <script type="text/javascript">
+        function navigate() {
+            window.location.href = "www.google.com"
+        }
+
+    </script>
+
         <p>{""}</p>
         <p onClick={() => navigateToPage('new')}>{""}</p>
       </main>
