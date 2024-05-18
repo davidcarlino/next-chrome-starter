@@ -1,16 +1,16 @@
 import styles from "../../styles/Pages.module.css";
-import styles from './Footer.module.css';
+import styles1 from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles1.footer}>
       <a
         href="https://users.iplatforms.com.au/"
         target="_blank"
         rel="noopener noreferrer"
       >
         V.1.0.1
-        <span className={styles.logo}>
+        <span className={styles1.logo}>
           <img
             src="icons/icon16.png"
             alt="Logo"
@@ -21,7 +21,9 @@ export default function Footer() {
       </a>
     </footer>
   );
-}export default function Index({ navigateToPage }) {
+}
+
+export function Index({ navigateToPage }) {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -36,12 +38,10 @@ export default function Footer() {
         </p>
 
         <body>
-          <script>
-            function helloWorld()
-          </script>
+      
 
           <button className={styles.portalButton}
-            type="button" name="portalButton" autofocus onclick="navigate()"><a href="/main-portal" target="_blank">Go To Poortal</a></button>
+            type="button" name="portalButton" autofocus onclick="navigate()"><a href="http://localhost:3000/argon-dashboard-material-ui/dashboard" target="_blank">Go To Portal</a></button>
         </body>
       </main>
     </div>

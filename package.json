@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run prep",
+   
     "prep": "npm run exp && node out.js",
     "exp": "next build && next export",
     "run": "next start",
