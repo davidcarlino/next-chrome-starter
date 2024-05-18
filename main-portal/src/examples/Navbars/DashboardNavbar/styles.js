@@ -56,7 +56,7 @@ function navbar(theme, ownerState) {
     },
 
     "& .MuiToolbar-root": {
-      display: "flex",
+      display: "none",
       justifyContent: "space-between",
       alignItems: "center",
 

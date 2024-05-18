@@ -14,28 +14,31 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Card from "@mui/material/Card";
-import Tooltip from "@mui/material/Tooltip";
+import Grid from "@mui/material/Grid";
 
 // Argon Dashboard 2 MUI components
 import ArgonBox from "components/ArgonBox";
-import ArgonTypography from "components/ArgonTypography";
 
-function Emails() {
+// Argon Dashboard 2 MUI components
+
+
+// raiseATicket page components
+import BaseLayout from "layouts/raiseATicket/components/BaseLayout";
+
+
+function raiseATicket() {
   return (
-    <Card>
-      <ArgonBox display="flex" justifyContent="space-between" p={3} lineHeight={1}>
-        <ArgonTypography variant="body2" color="text">
-          Emails (21)
-        </ArgonTypography>
-        <Tooltip title="Check your emails" placement="top">
-          <ArgonBox component="a" href="#">
-            <ArgonTypography variant="body2">Check</ArgonTypography>
-          </ArgonBox>
-        </Tooltip>
-      </ArgonBox>
-    </Card>
+    <>
+      <BaseLayout/>
+      <div>
+        
+          <div className="title">OTP</div> 
+          <div className="title">Verification Code</div> 
+          <p className="message">We have sent a verification code to your mobile number</p> 
+      
+      </div>   
+    </>
   );
 }
 
-export default Emails;
+export default raiseATicket;
