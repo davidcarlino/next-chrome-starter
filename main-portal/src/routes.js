@@ -35,13 +35,17 @@ Coded by www.creative-tim.com
 
 // Argon Dashboard 2 MUI layouts
 import Dashboard from "layouts/dashboard";
+import SupportIcon from "@mui/icons-material/Support";
 import Tables from "layouts/tables";
+import HandymanIcon from '@mui/icons-material/Handyman';
 import Billing from "layouts/billing";
 import raiseATicket from "layouts/raiseATicket";
 import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
+import FolderCopyIcon from '@mui/icons-material/FolderCopy';
+import SchoolIcon from '@mui/icons-material/School';
 
 // Argon Dashboard 2 MUI components
 import ArgonBox from "components/ArgonBox";
@@ -58,25 +62,25 @@ const routes = [
   {
     type: "route",
     name: "Knowledge Base",
-    key: "billing",
-    route: "/billing",
-    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-credit-card" />,
+    key: "knowledgebase",
+    route: "/knowledgebase",
+    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-atom" />,
     component: <Billing />,
   },
   {
     type: "route",
     name: "Document Links",
-    key: "billing",
-    route: "/billing",
-    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-credit-card" />,
+    key: "DocumentLinks",
+    route: "/documentLinks",
+    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-book-bookmark" />,
     component: <Billing />,
   },
   {
     type: "route",
     name: "Self-Service",
-    key: "billing",
-    route: "/billing",
-    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-credit-card" />,
+    key: "selfService",
+    route: "/selfService",
+    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-settings" />,
     component: <Billing />,
   },
   {
@@ -84,7 +88,7 @@ const routes = [
     name: "Raise A Ticket",
     key: "raiseATicket",
     route: "/raiseATicket",
-    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-credit-card" />,
+    icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-support-16" />,
     component: <Billing />,
   },
   

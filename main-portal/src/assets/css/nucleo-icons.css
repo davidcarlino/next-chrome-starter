@@ -365,6 +365,7 @@ License - nucleoapp.com/license/
   content: "\ea2c";
 }
 
+
 .ni-curved-next::before {
   content: "\ea2d";
 }
@@ -518,6 +519,9 @@ License - nucleoapp.com/license/
 }
 
 .ni-support-16::before {
+  content: "\ea53";
+}
+.ni-handyman-16::before {
   content: "\ea53";
 }
 
