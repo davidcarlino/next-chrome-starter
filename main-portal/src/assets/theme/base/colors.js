@@ -61,8 +61,8 @@ const colors = {
   },
 
   success: {
-    main: "#2dce89",
-    focus: "#2dce89",
+    main: "#000000",
+    focus: "#000000",
   },
 
   warning: {
@@ -296,7 +296,7 @@ const colors = {
   inputColors: {
     borderColor: { main: "#d2d6da", focus: "#000000" },
     error: "#f5365c",
-    success: "#2dce89",
+    success: "#000000",
   },
 
   sliderColors: {
