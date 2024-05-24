@@ -62,7 +62,7 @@ import PlatformSettings from "layouts/profile/components/PlatformSettings";
 // Data
 import profilesListData from "layouts/profile/data/profilesListData";
 
-import homeDecor1 from "assets/images/home-decor-1.jpg";
+import itservicedeskcover from "assets/images/home-decor-1.jpg";
 import homeDecor2 from "assets/images/home-decor-2.jpg";
 import homeDecor3 from "assets/images/home-decor-3.jpg";
 import team1 from "assets/images/team-1.jpg";
@@ -80,7 +80,7 @@ function Raiseaticket () {
   return (
     <center>
 <DashboardLayout
-      sx={{
+      alignItems="center" sx={{
         backgroundImage: ({ functions: { rgba, linearGradient }, palette: { gradients } }) =>
           `${linearGradient(
             rgba(gradients.info.main, 0.6),
@@ -93,13 +93,33 @@ function Raiseaticket () {
 <Header />
 <center>
   
-      <ArgonBox mt={6} mb={5}><center>
-        <Grid container spacing={3}>
-        <Grid item xs={12} md={6} xl={3}>
+      <ArgonBox mt={6}  alignItems="center" mb={5}><center>
+        <Grid  alignItems="center" container spacing={3}>
+        <Grid  alignItems="center" item xs={12} md={6} xl={3}>
+                <DefaultProjectCard  alignItems="center"
+                  image={itservicedeskcover}
+                
+                  title="IT Service Desk"
+                  description="Get assistance for general IT problems and questions."
+                  action={{
+                    type: "internal",
+                    route: "/pages/profile/profile-overview",
+                    color: "info",
+                    label: "View Project",
+                  }}
+                  authors={[
+                    { image: team1, name: "Elena Morison" },
+                    { image: team2, name: "Ryan Milly" },
+                    { image: team3, name: "Nick Daniel" },
+                    { image: team4, name: "Peterson" },
+                  ]}
+                />
+              </Grid>
+          <Grid item xs={12}  alignItems="center" md={6} xl={3}>
                 <DefaultProjectCard
-                  image={homeDecor1}
-                  label="project #2"
-                  title="modern"
+                  image={itservicedeskcover}
+                  
+                  title="iPlatforms Service Desk"
                   description="As Uber works through a huge amount of internal management turmoil."
                   action={{
                     type: "internal",
@@ -115,29 +135,9 @@ function Raiseaticket () {
                   ]}
                 />
               </Grid>
-          <Grid item xs={12} md={6} xl={3}>
+              <Grid item alignItems="center" xs={12} md={6} xl={3}>
                 <DefaultProjectCard
-                  image={homeDecor1}
-                  label="project #2"
-                  title="modern"
-                  description="As Uber works through a huge amount of internal management turmoil."
-                  action={{
-                    type: "internal",
-                    route: "/pages/profile/profile-overview",
-                    color: "info",
-                    label: "View Project",
-                  }}
-                  authors={[
-                    { image: team1, name: "Elena Morison" },
-                    { image: team2, name: "Ryan Milly" },
-                    { image: team3, name: "Nick Daniel" },
-                    { image: team4, name: "Peterson" },
-                  ]}
-                />
-              </Grid>
-              <Grid item xs={12} md={6} xl={3}>
-                <DefaultProjectCard
-                  image={homeDecor1}
+                  image={itservicedeskcover}
                   label="project #2"
                   title="modern"
                   description="As Uber works through a huge amount of internal management turmoil."
