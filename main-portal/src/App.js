@@ -50,6 +50,7 @@ import { useArgonController, setMiniSidenav, setOpenConfigurator } from "context
 // Images
 import brand from "assets/images/logo-ct.png";
 import brandDark from "assets/images/logo-ct-dark.png";
+import brandName from "assets/images/logo-ct.png";
 
 // Icon Fonts
 import "assets/css/nucleo-icons.css";

@@ -16,6 +16,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/require-default-props": "off",
     "no-param-reassign": "off",
+   "react/no-unknown-property": ["error", { "ignore": ["css"] }],
     "jsx-a11y/alt-text": "off",
     "react/react-in-jsx-scope": "off",
     "react/display-name": "off"

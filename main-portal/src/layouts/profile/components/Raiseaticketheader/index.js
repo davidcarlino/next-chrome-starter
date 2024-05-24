@@ -75,54 +75,17 @@ function Header() {
       >
         <Grid container spacing={3} alignItems="center">
           <Grid item>
-            <ArgonAvatar
-              src={burceMars}
-              alt="profile-image"
-              variant="rounded"
-              size="xl"
-              shadow="sm"
-            />
+            
           </Grid>
           <Grid item>
             <ArgonBox height="100%" mt={0.5} lineHeight={1}>
-              <ArgonTypography variant="h5" fontWeight="medium">
-                Alex Thompson
+              <ArgonTypography variant="h2" fontWeight="large">
+                Raise A Ticket
               </ArgonTypography>
-              <ArgonTypography variant="button" color="text" fontWeight="medium">
-                CEO / Co-Founder
-              </ArgonTypography>
+              
             </ArgonBox>
           </Grid>
-          <Grid item xs={12} md={6} lg={4} sx={{ ml: "auto" }}>
-            <AppBar position="static">
-              <Tabs orientation={tabsOrientation} value={tabValue} onChange={handleSetTabValue}>
-                <Tab
-                  label="App"
-                  icon={
-                    <i className="ni ni-app" style={{ marginTop: "6px", marginRight: "8px" }} />
-                  }
-                />
-                <Tab
-                  label="Message"
-                  icon={
-                    <i
-                      className="ni ni-email-83"
-                      style={{ marginTop: "6px", marginRight: "8px" }}
-                    />
-                  }
-                />
-                <Tab
-                  label="Settings"
-                  icon={
-                    <i
-                      className="ni ni-settings-gear-65"
-                      style={{ marginTop: "6px", marginRight: "8px" }}
-                    />
-                  }
-                />
-              </Tabs>
-            </AppBar>
-          </Grid>
+          
         </Grid>
       </Card>
     </ArgonBox>

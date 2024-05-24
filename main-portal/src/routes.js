@@ -39,6 +39,7 @@ import SupportIcon from "@mui/icons-material/Support";
 import Tables from "layouts/tables";
 import HandymanIcon from '@mui/icons-material/Handyman';
 import Billing from "layouts/billing";
+import Raiseaticket from "layouts/raiseaticket";
 import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
@@ -82,13 +83,14 @@ const routes = [
     icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-settings" />,
     component: <Billing />,
   },
+
   {
     type: "route",
     name: "Raise A Ticket",
-    key: "raise-a-ticket",
-    route: "/raise-a-ticket",
+    key: "raiseaticket",
+    route: "/raiseaticket",
     icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-support-16" />,
-    component: <raise-a-ticket />,
+    component: <Raiseaticket />,
   },
   
 ];
