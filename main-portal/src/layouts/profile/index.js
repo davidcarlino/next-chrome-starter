@@ -35,7 +35,7 @@ import DefaultProjectCard from "examples/Cards/ProjectCards/DefaultProjectCard";
 import PlaceholderCard from "examples/Cards/PlaceholderCard";
 
 // Overview page components
-import Header from "layouts/profile/components/Header";
+import Header from "layouts/profile/components/Raiseaticketheader";
 import PlatformSettings from "layouts/profile/components/PlatformSettings";
 
 // Data

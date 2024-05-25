@@ -58,6 +58,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
         flexDirection: "column",
         backgroundColor: "transparent",
         boxShadow: "none",
+        
         overflow: "visible",
       }}
     >
@@ -91,6 +92,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               to={action.route}
               variant="h5"
               textTransform="capitalize"
+              alignItems="center"
             >
               {title}
             </ArgonTypography>
@@ -102,6 +104,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               rel="noreferrer"
               variant="h5"
               textTransform="capitalize"
+              alignItems="center"
             >
               {title}
             </ArgonTypography>
@@ -112,7 +115,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
             {description}
           </ArgonTypography>
         </ArgonBox>
-        <ArgonBox display="flex" justifyContent="space-between" alignItems="center">
+        <ArgonBox display="flex"  justifyContent="space-between" alignItems="center">
           {action.type === "internal" ? (
             <ArgonButton
               component={Link}
@@ -120,6 +123,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               variant="outlined"
               size="small"
               color={action.color}
+              alignItems="center"
             >
               {action.label}
             </ArgonButton>
@@ -131,6 +135,8 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               rel="noreferrer"
               variant="outlined"
               size="small"
+              alignItems="center"
+
               color={action.color}
             >
               {action.label}

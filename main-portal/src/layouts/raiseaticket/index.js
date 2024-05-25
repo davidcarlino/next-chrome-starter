@@ -62,9 +62,9 @@ import PlatformSettings from "layouts/profile/components/PlatformSettings";
 // Data
 import profilesListData from "layouts/profile/data/profilesListData";
 
-import itservicedeskcover from "assets/images/home-decor-1.jpg";
-import homeDecor2 from "assets/images/home-decor-2.jpg";
-import homeDecor3 from "assets/images/home-decor-3.jpg";
+import itservicedeskcover from "assets/images/itsd-cover.gif";
+import ipscover from "assets/images/ips-cover.gif";
+import ipsecover from "assets/images/ipse-cover.gif";
 import team1 from "assets/images/team-1.jpg";
 import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
@@ -101,64 +101,75 @@ function Raiseaticket () {
                 
                   title="IT Service Desk"
                   description="Get assistance for general IT problems and questions."
+                  
+                  text="Examples Include:
+                  
+                  John Gilbert"
+                 
+           
                   action={{
+                   
                     type: "internal",
-                    route: "/pages/profile/profile-overview",
+                    route: "https://ipartners.atlassian.net/servicedesk/customer/portal/2",
                     color: "info",
-                    label: "View Project",
+                    label: "Go To Desk",
+                  
                   }}
-                  authors={[
-                    { image: team1, name: "Elena Morison" },
-                    { image: team2, name: "Ryan Milly" },
-                    { image: team3, name: "Nick Daniel" },
-                    { image: team4, name: "Peterson" },
-                  ]}
+        
+           
                 />
               </Grid>
           <Grid item xs={12}  alignItems="center" md={6} xl={3}>
                 <DefaultProjectCard
-                  image={itservicedeskcover}
+                  image={ipscover}
                   
                   title="iPlatforms Service Desk"
                   description="As Uber works through a huge amount of internal management turmoil."
                   action={{
                     type: "internal",
-                    route: "/pages/profile/profile-overview",
+                    route: "https://ipartners.atlassian.net/servicedesk/customer/portal/5",
                     color: "info",
-                    label: "View Project",
+                    label: "Go To Desk",
+                    
                   }}
-                  authors={[
-                    { image: team1, name: "Elena Morison" },
-                    { image: team2, name: "Ryan Milly" },
-                    { image: team3, name: "Nick Daniel" },
-                    { image: team4, name: "Peterson" },
-                  ]}
+                  
                 />
-              </Grid>
-              <Grid item alignItems="center" xs={12} md={6} xl={3}>
+              </Grid >
+              <Grid item alignItems="center"  xs={12} md={6} xl={3}>
                 <DefaultProjectCard
-                  image={itservicedeskcover}
-                  label="project #2"
-                  title="modern"
+                  image={ipsecover}
+                  
+                  title="Enhancements Service Desk"
                   description="As Uber works through a huge amount of internal management turmoil."
                   action={{
+                    
+
+                    verticalAlign:"center",
+                    margin:"10px",
+                    display: "inline-flex",
+                flexDirection: "column",
+                justifyContent: "center",
+
                     type: "internal",
-                    route: "/pages/profile/profile-overview",
+                    verticalAlign:"center",
+                    margin:"10px",
+                    display: "inline-flex",
+                flexDirection: "column",
+                justifyContent: "center",
+
+                    route: "https://ipartners.atlassian.net/servicedesk/customer/portal/6",
                     color: "info",
-                    label: "View Project",
+                    label: "Go To Desk",
+                   
+                    
                   }}
-                  authors={[
-                    { image: team1, name: "Elena Morison" },
-                    { image: team2, name: "Ryan Milly" },
-                    { image: team3, name: "Nick Daniel" },
-                    { image: team4, name: "Peterson" },
-                  ]}
+                  
                 />
               </Grid>
         </Grid>
         </center>  </ArgonBox>  </center>
 
-      <Footer />
+      
     </DashboardLayout>  </center>
     
   );
