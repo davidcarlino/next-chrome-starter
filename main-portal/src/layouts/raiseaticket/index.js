@@ -129,7 +129,7 @@ function Raiseaticket () {
                   image={ipscover}
                   
                   title="iPlatforms Service Desk"
-                  description="As Uber works through a huge amount of internal management turmoil."
+                  description="Get assistance for iPlatforms related problems and questions."
                   action={{
                     type: "internal",
                     route: "https://ipartners.atlassian.net/servicedesk/customer/portal/5",
@@ -146,7 +146,7 @@ function Raiseaticket () {
                   image={ipsecover}
                   
                   title="Enhancements Service Desk"
-                  description="As Uber works through a huge amount of internal management turmoil."
+                  description="Raise enhancements and new feature requests."
                   action={{
                     verticalAlign: "middle",
 
