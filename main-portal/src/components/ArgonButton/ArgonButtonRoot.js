@@ -208,6 +208,7 @@ export default styled(Button)(({ theme, ownerState }) => {
       height: sizeValue,
       minHeight: sizeValue,
       padding: paddingValue,
+      align: "center",
 
       "& .material-icons": {
         marginTop: 0,

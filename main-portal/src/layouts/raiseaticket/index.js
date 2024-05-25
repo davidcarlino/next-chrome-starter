@@ -86,7 +86,8 @@ function Raiseaticket () {
             rgba(gradients.info.main, 0.6),
             rgba(gradients.info.state, 0.6)
           )}, url(${bgImage})`,
-        backgroundPositionY: "50%",
+        backgroundPositionY: "40%",
+        backgroundSize: "cover",
       }}
     >
 
@@ -94,26 +95,30 @@ function Raiseaticket () {
 <center>
   
       <ArgonBox mt={6}  alignItems="center" mb={5}><center>
-        <Grid  alignItems="center" container spacing={3}>
+        <Grid  alignItems="center"    verticalAlign="middle" container spacing={3}>
         <Grid  alignItems="center" item xs={12} md={6} xl={3}>
                 <DefaultProjectCard  alignItems="center"
                   image={itservicedeskcover}
                 
                   title="IT Service Desk"
                   description="Get assistance for general IT problems and questions."
-                  
+                  verticalAlign="middle"
                   text="Examples Include:
                   
                   John Gilbert"
                  
            
                   action={{
-                   
+                    verticalAlign:"center",
+                    margin:"10px",
+                    display: "inline-flex",
+             
+                justifyContent: "center",
                     type: "internal",
                     route: "https://ipartners.atlassian.net/servicedesk/customer/portal/2",
                     color: "info",
                     label: "Go To Desk",
-                  
+                    verticalAlign: "middle",
                   }}
         
            
@@ -130,19 +135,20 @@ function Raiseaticket () {
                     route: "https://ipartners.atlassian.net/servicedesk/customer/portal/5",
                     color: "info",
                     label: "Go To Desk",
+                    verticalAlign: "middle",
                     
                   }}
                   
                 />
               </Grid >
-              <Grid item alignItems="center"  xs={12} md={6} xl={3}>
+              <Grid item alignItems="center"       verticalAlign="middle" xs={12} md={6} xl={3}>
                 <DefaultProjectCard
                   image={ipsecover}
                   
                   title="Enhancements Service Desk"
                   description="As Uber works through a huge amount of internal management turmoil."
                   action={{
-                    
+                    verticalAlign: "middle",
 
                     verticalAlign:"center",
                     margin:"10px",
@@ -160,6 +166,7 @@ function Raiseaticket () {
                     route: "https://ipartners.atlassian.net/servicedesk/customer/portal/6",
                     color: "info",
                     label: "Go To Desk",
+                    verticalAlign: "middle",
                    
                     
                   }}

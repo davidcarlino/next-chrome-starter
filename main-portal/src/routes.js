@@ -39,6 +39,7 @@ import SupportIcon from "@mui/icons-material/Support";
 import Tables from "layouts/tables";
 import HandymanIcon from '@mui/icons-material/Handyman';
 import Billing from "layouts/billing";
+import Selfservice from "layouts/selfservice";
 import Raiseaticket from "layouts/raiseaticket";
 import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
@@ -81,7 +82,7 @@ const routes = [
     key: "selfService",
     route: "/selfService",
     icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-settings" />,
-    component: <Billing />,
+    component: <Selfservice />,
   },
 
   {

@@ -58,6 +58,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
         flexDirection: "column",
         backgroundColor: "transparent",
         boxShadow: "none",
+        verticalAlign: "middle",
         
         overflow: "visible",
       }}
@@ -69,10 +70,12 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
           title={title}
           sx={{
             maxWidth: "100%",
+            verticalAlign: "middle",
             margin: 0,
             boxShadow: ({ boxShadows: { md } }) => md,
             objectFit: "cover",
             objectPosition: "center",
+            
           }}
         />
       </ArgonBox>
@@ -93,6 +96,8 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               variant="h5"
               textTransform="capitalize"
               alignItems="center"
+              verticalAlign="middle"
+
             >
               {title}
             </ArgonTypography>
@@ -105,6 +110,8 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               variant="h5"
               textTransform="capitalize"
               alignItems="center"
+
+              verticalAlign="middle"
             >
               {title}
             </ArgonTypography>
@@ -115,7 +122,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
             {description}
           </ArgonTypography>
         </ArgonBox>
-        <ArgonBox display="flex"  justifyContent="space-between" alignItems="center">
+        <ArgonBox display="block"    verticalAlign="middle" justifyContent="space-between" alignItems="center">
           {action.type === "internal" ? (
             <ArgonButton
               component={Link}
@@ -124,6 +131,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               size="small"
               color={action.color}
               alignItems="center"
+              verticalAlign="middle"
             >
               {action.label}
             </ArgonButton>
@@ -136,13 +144,14 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
               variant="outlined"
               size="small"
               alignItems="center"
+              verticalAlign="middle"
 
               color={action.color}
             >
               {action.label}
             </ArgonButton>
           )}
-          <ArgonBox display="flex">{renderAuthors}</ArgonBox>
+          <ArgonBox display="flex"    verticalAlign="middle" >{renderAuthors}</ArgonBox>
         </ArgonBox>
       </ArgonBox>
     </Card>
