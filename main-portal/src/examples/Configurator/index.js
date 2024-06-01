@@ -106,8 +106,8 @@ function Configurator() {
               <IconButton
                 key={color}
                 sx={({ borders: { borderWidth }, palette: { white, dark }, transitions }) => ({
-                  width: "24px",
-                  height: "24px",
+                  width: "12px",
+                  height: "5px",
                   padding: 0,
                   border: `${borderWidth[1]} solid ${white.main}`,
                   borderColor: sidenavColor === color && dark.main,
@@ -248,6 +248,7 @@ function Configurator() {
                 target="_blank"
                 rel="noreferrer"
                 color="dark"
+                fullWidth
               >
                 <TwitterIcon />
                 &nbsp; Tweet
@@ -259,6 +260,7 @@ function Configurator() {
               target="_blank"
               rel="noreferrer"
               color="dark"
+              fullWidth
             >
               <FacebookIcon />
               &nbsp; Share

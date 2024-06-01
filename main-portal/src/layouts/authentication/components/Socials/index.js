@@ -45,7 +45,7 @@ function Socials() {
         </ArgonButton>
       </ArgonBox>
       <ArgonButton variant="outlined" color="light">
-        <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1">
+        <svg width="66px" height="32px" viewBox="0 0 64 64" version="1.1">
           <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g transform="translate(3.000000, 2.000000)" fillRule="nonzero">
               <path

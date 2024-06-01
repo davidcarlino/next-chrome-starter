@@ -41,6 +41,7 @@ import HandymanIcon from '@mui/icons-material/Handyman';
 import Billing from "layouts/billing";
 import Selfservice from "layouts/selfservice";
 import Raiseaticket from "layouts/raiseaticket";
+import DocumentLinks from "layouts/documentlinks";
 import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
@@ -74,7 +75,7 @@ const routes = [
     key: "DocumentLinks",
     route: "/documentLinks",
     icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-book-bookmark" />,
-    component: <Billing />,
+    component: <DocumentLinks />,
   },
   {
     type: "route",

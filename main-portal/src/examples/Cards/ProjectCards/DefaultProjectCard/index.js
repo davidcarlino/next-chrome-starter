@@ -1,17 +1,3 @@
-/**
-=========================================================
-* Argon Dashboard 2 MUI - v3.0.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-dashboard-material-ui
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 // react-router-dom components
 import { Link } from "react-router-dom";
@@ -30,7 +16,7 @@ import ArgonTypography from "components/ArgonTypography";
 import ArgonButton from "components/ArgonButton";
 import ArgonAvatar from "components/ArgonAvatar";
 
-function DefaultProjectCard({ image, label, title, description, action, authors }) {
+function DefaultProjectCard({ image, label, title, description, text, text1, text2, text3, action, authors }) {
   const renderAuthors = authors.map(({ image: media, name }) => (
     <Tooltip key={name} title={name} placement="bottom">
       <ArgonAvatar
@@ -44,7 +30,7 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
           ml: -1.25,
 
           "&:hover, &:focus": {
-            zIndex: "10",
+            zIndex: "8",
           },
         })}
       />
@@ -122,6 +108,32 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
             {description}
           </ArgonTypography>
         </ArgonBox>
+
+        <ArgonBox mb={3} lineHeight={0}>
+          <ArgonTypography variant="button" fontWeight="regular" color="text">
+            {text1}
+          </ArgonTypography>
+        </ArgonBox>
+
+        <ArgonBox mb={3} lineHeight={0}>
+          <ArgonTypography variant="button" fontWeight="regular" color="text">
+            {text2}
+          </ArgonTypography>
+        </ArgonBox>
+
+        <ArgonBox mb={3} lineHeight={0}>
+          <ArgonTypography variant="button" fontWeight="regular" color="text">
+            {text3}
+          </ArgonTypography>
+        </ArgonBox>
+
+        <ArgonBox mb={3} lineHeight={0}>
+          <ArgonTypography variant="button" fontWeight="regular" color="text">
+            {text}
+          </ArgonTypography>
+        </ArgonBox>
+
+
         <ArgonBox display="block"    verticalAlign="middle" justifyContent="space-between" alignItems="center">
           {action.type === "internal" ? (
             <ArgonButton
@@ -169,6 +181,10 @@ DefaultProjectCard.propTypes = {
   label: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  text1: PropTypes.string.isRequired,
+  text2: PropTypes.string.isRequired,
+  text3: PropTypes.string.isRequired,
   action: PropTypes.shape({
     type: PropTypes.oneOf(["external", "internal"]),
     route: PropTypes.string.isRequired,

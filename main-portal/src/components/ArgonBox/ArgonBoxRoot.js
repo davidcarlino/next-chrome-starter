@@ -61,6 +61,7 @@ export default styled(Box)(({ theme, ownerState }) => {
     "light",
     "dark",
     "text",
+    "text1",
     "grey-100",
     "grey-200",
     "grey-300",

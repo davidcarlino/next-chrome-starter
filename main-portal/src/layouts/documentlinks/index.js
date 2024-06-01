@@ -58,9 +58,9 @@ import DefaultProjectCard from "examples/Cards/ProjectCards/DefaultProjectCard";
 import PlaceholderCard from "examples/Cards/PlaceholderCard";
 
 // Overview page components
-import Header from "layouts/profile/components/selfserviceheader";
+import Header from "layouts/profile/components/documentlinksheader";
 import PlatformSettings from "layouts/profile/components/PlatformSettings";
-
+import SliderMenu from "layouts/documentlinks/slidermenu";
 
 
 
@@ -85,7 +85,7 @@ topcover;
 
 
 
-function Selfservice () {
+function DocumentLinks () {
   return (
     <center>
 <DashboardLayout
@@ -101,17 +101,23 @@ function Selfservice () {
     >
 <Header />
 
+<h1>gay</h1>
 
+<SliderMenu />
 
 <center>
   
       
       </center>
 
-      s
+      
     </DashboardLayout>  </center>
+
+
+
+
     
   );
 }
 
-export default Selfservice;
+export default DocumentLinks;

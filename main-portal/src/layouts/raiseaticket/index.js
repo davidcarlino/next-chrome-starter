@@ -69,8 +69,11 @@ import team1 from "assets/images/team-1.jpg";
 import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
 import team4 from "assets/images/team-4.jpg";
+import topcover from "assets/images/topcover.jpg";
+
+
 const bgImage =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/profile-layout-header.jpg";
+topcover;
 
 
 
@@ -95,17 +98,19 @@ function Raiseaticket () {
 <center>
   
       <ArgonBox mt={6}  alignItems="center" mb={5}><center>
-        <Grid  alignItems="center"    verticalAlign="middle" container spacing={3}>
+        <Grid  alignItems="center"    verticalAlign="middle" container spacing={4}>
         <Grid  alignItems="center" item xs={12} md={6} xl={3}>
                 <DefaultProjectCard  alignItems="center"
                   image={itservicedeskcover}
                 
                   title="IT Service Desk"
                   description="Get assistance for general IT problems and questions."
+                 
                   verticalAlign="middle"
-                  text="Examples Include:
+                  text1="Examples Include:"
+                  text="I.T. Issues"
                   
-                  John Gilbert"
+    
                  
            
                   action={{
@@ -130,6 +135,12 @@ function Raiseaticket () {
                   
                   title="iPlatforms Service Desk"
                   description="Get assistance for iPlatforms related problems and questions."
+
+                  verticalAlign="middle"
+                  text1="Examples Include:"
+                  text="iPlatforms Issues"
+
+
                   action={{
                     type: "internal",
                     route: "https://ipartners.atlassian.net/servicedesk/customer/portal/5",
@@ -147,6 +158,12 @@ function Raiseaticket () {
                   
                   title="Enhancements Service Desk"
                   description="Raise enhancements and new feature requests."
+
+                  verticalAlign="middle"
+                  text1="Examples Include:"
+                  text="Suggestions for new features"
+
+
                   action={{
                     verticalAlign: "middle",
 
