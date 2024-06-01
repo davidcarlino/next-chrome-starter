@@ -1,68 +1,100 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import Box from '@mui/joy/Box';
+import ListItemDecorator from '@mui/joy/ListItemDecorator';
+import Tabs from '@mui/joy/Tabs';
+import TabList from '@mui/joy/TabList';
+import Tab, { tabClasses } from '@mui/joy/Tab';
+import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
+import Search from '@mui/icons-material/Search';
+import Person from '@mui/icons-material/Person';
 
-function CustomTabPanel(props) {
-  const { children, value, index, ...other } = props;
-
+export default function TabsBottomNavExample() {
+  const [index, setIndex] = React.useState(0);
+  const colors = ['primary', 'danger', 'success', 'warning'];
   return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
+    <Box
+      sx={{
+        flexGrow: 1,
+        m: -3,
+        p: 4,
+        borderTopLeftRadius: '12px',
+        borderTopRightRadius: '12px',
+        bgcolor: `${colors[index]}.500`,
+      }}
     >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
-}
-
-CustomTabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-};
-
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-}
-
-export default function BasicTabs() {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
-  return (
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
-        </Tabs>
-      </Box>
-      <CustomTabPanel value={value} index={0}>
-        Item One
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
-        Item Two
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        Item Three
-      </CustomTabPanel>
+      <Tabs
+        size="lg"
+        aria-label="Bottom Navigation"
+        value={index}
+        onChange={(event, value) => setIndex(value)}
+        sx={(theme) => ({
+          p: 1,
+          borderRadius: 16,
+          maxWidth: 400,
+          mx: 'auto',
+          boxShadow: theme.shadow.sm,
+          '--joy-shadowChannel': theme.vars.palette[colors[index]].darkChannel,
+          [`& .${tabClasses.root}`]: {
+            py: 1,
+            flex: 1,
+            transition: '0.3s',
+            fontWeight: 'md',
+            fontSize: 'md',
+            [`&:not(.${tabClasses.selected}):not(:hover)`]: {
+              opacity: 0.7,
+            },
+          },
+        })}
+      >
+        <TabList
+          variant="plain"
+          size="sm"
+          disableUnderline
+          sx={{ borderRadius: 'lg', p: 0 }}
+        >
+          <Tab
+            disableIndicator
+            orientation="vertical"
+            {...(index === 0 && { color: colors[0] })}
+          >
+            <ListItemDecorator>
+              <HomeRoundedIcon />
+            </ListItemDecorator>
+            Home
+          </Tab>
+          <Tab
+            disableIndicator
+            orientation="vertical"
+            {...(index === 1 && { color: colors[1] })}
+          >
+            <ListItemDecorator>
+              <FavoriteBorder />
+            </ListItemDecorator>
+            Likes
+          </Tab>
+          <Tab
+            disableIndicator
+            orientation="vertical"
+            {...(index === 2 && { color: colors[2] })}
+          >
+            <ListItemDecorator>
+              <Search />
+            </ListItemDecorator>
+            Search
+          </Tab>
+          <Tab
+            disableIndicator
+            orientation="vertical"
+            {...(index === 3 && { color: colors[3] })}
+          >
+            <ListItemDecorator>
+              <Person />
+            </ListItemDecorator>
+            Profile
+          </Tab>
+        </TabList>
+      </Tabs>
     </Box>
   );
 }

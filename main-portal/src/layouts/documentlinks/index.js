@@ -101,8 +101,6 @@ function DocumentLinks () {
     >
 <Header />
 
-<h1>gay</h1>
-
 <SliderMenu />
 
 <center>
