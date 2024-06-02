@@ -1,22 +1,10 @@
-
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
-import CssBaseline from '@mui/material/CssBaseline';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+import Grid from '@mui/material/Grid';
 import Compliancemenu from 'layouts/documentlinks/compliance';
 
 function CustomTabPanel(props) {
@@ -32,7 +20,7 @@ function CustomTabPanel(props) {
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+          {children}
         </Box>
       )}
     </div>
@@ -69,16 +57,30 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-       <Box><Compliancemenu/></Box>
-       
+        <Grid container spacing={2}>
+          <Grid item xs={3}>
+            <Compliancemenu />
+          </Grid>
+          <Grid item xs={9}>
+            <Typography variant="body1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </Typography>
+          </Grid>
+        </Grid>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Item Two
+        <Typography variant="body1">
+          Panel 2
+        </Typography>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Item Three
+        <Typography variant="body1">
+          Panel 3
+        </Typography>
       </CustomTabPanel>
     </Box>
   );
 }
-

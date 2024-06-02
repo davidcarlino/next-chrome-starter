@@ -56,7 +56,6 @@ import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
 import ProfilesList from "examples/Lists/ProfilesList";
 import DefaultProjectCard from "examples/Cards/ProjectCards/DefaultProjectCard";
 import PlaceholderCard from "examples/Cards/PlaceholderCard";
-
 // Overview page components
 import Header from "layouts/profile/components/documentlinksheader";
 import PlatformSettings from "layouts/profile/components/PlatformSettings";
