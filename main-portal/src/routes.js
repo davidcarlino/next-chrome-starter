@@ -72,8 +72,8 @@ const routes = [
   {
     type: "route",
     name: "Document Links",
-    key: "DocumentLinks",
-    route: "/documentLinks",
+    key: "Documentlinks",
+    route: "/documentlinks",
     icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-book-bookmark" />,
     component: <DocumentLinks />,
   },

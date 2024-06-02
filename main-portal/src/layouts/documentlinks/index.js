@@ -60,7 +60,7 @@ import PlaceholderCard from "examples/Cards/PlaceholderCard";
 // Overview page components
 import Header from "layouts/profile/components/documentlinksheader";
 import PlatformSettings from "layouts/profile/components/PlatformSettings";
-import SliderMenu from "layouts/documentlinks/slidermenu";
+import SliderMenu from "layouts/documentlinks/SliderMenu";
 
 
 
