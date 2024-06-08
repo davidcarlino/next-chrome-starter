@@ -15,7 +15,7 @@ export default function Index({ navigateToPage }) {
         <p className={styles.description}>
         </p>
         
-      	<button className={styles.portalButton} type="button" name="portalButton"  autofocus onclick="navigate()" ><a href="main-portal" target="_blank">Go To Poortal</a></button>
+      	<button className={styles.portalButton} type="button" name="portalButton"  autofocus onclick="navigate()" ><a href="http://localhost:3000/argon-dashboard-material-ui" target="_blank">Go To Portal</a></button>
 
       </main>
     </div>
