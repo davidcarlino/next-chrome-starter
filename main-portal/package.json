@@ -19,7 +19,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
     "@mui/joy": "^5.0.0-beta.36",
-    "@mui/material/styles": "^5.13.1",
+    "@mui/material/styles": "5.13.1",
     "@mui/styled-engine": "5.12.3",
     "@pathofdev/react-tag-input": "1.0.7",
     "@testing-library/jest-dom": "5.16.5",
@@ -91,5 +91,6 @@
   },
   "overrides": {
     "svgo": "3.0.2"
-  }
+  },
+  "main": "index.js"
 }
