@@ -28,6 +28,17 @@ import PerfectScrollbar from "react-perfect-scrollbar";
 // react-perfect-scrollbar styles
 import "react-perfect-scrollbar/dist/css/styles.css";
 
+
+//import Products from "./routes/Products";
+//import Home from "./routes/Home";
+//import Reports from "./routes/Reports";
+//import Navbar from "./components/Navbar";
+//import "./App.css";
+
+
+
+
+
 const container = document.getElementById("root");
 const root = createRoot(container);
 

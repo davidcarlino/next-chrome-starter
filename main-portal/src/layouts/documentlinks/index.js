@@ -59,8 +59,6 @@ import PlaceholderCard from "examples/Cards/PlaceholderCard";
 // Overview page components
 import Header from "layouts/profile/components/documentlinksheader";
 import PlatformSettings from "layouts/profile/components/PlatformSettings";
-import SliderMenu from "layouts/documentlinks/SliderMenu";
-
 
 
 
@@ -77,6 +75,12 @@ import team3 from "assets/images/team-3.jpg";
 import team4 from "assets/images/team-4.jpg";
 import topcover from "assets/images/topcover.jpg";
 import { Public } from "@mui/icons-material";
+
+import Products from "./routes/Products";
+import Home from "./routes/Home";
+import Reports from "./routes/Reports";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 
 const bgImage =
@@ -100,7 +104,6 @@ function DocumentLinks () {
     >
 <Header />
 
-<SliderMenu />
 
 <center>
   
