@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import Compliancemenu from 'layouts/documentlinks/compliance';
+
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -57,19 +57,9 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <Grid container spacing={2}>
-          <Grid item xs={3}>
-            <Compliancemenu />
-          </Grid>
-          <Grid item xs={9}>
-            <Typography variant="body1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Typography>
-          </Grid>
-        </Grid>
+
+        <complianceComponent />
+        
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         <Typography variant="body1">
