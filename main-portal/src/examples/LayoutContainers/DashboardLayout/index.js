@@ -54,7 +54,7 @@ function DashboardLayout({ bgColor, children, ...rest }) {
     >
       <ArgonBox
         bgColor={background || "info"}
-        height="160px"
+        height="100px"
         width="100vw"
         position="absolute"
         top={0}

@@ -69,7 +69,7 @@ function Header() {
   return (
     <ArgonBox position="relative">
       <DashboardNavbar absolute light />
-      <ArgonBox height="170px" />
+      <ArgonBox height="130px" />
       <Card
         sx={{
           py: 2,
