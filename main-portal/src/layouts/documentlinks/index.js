@@ -102,22 +102,15 @@ function DocumentLinks () {
         backgroundSize: "cover",
       }}
     >
+
 <Header />
-
-
-<center>
-  
-      
-      </center>
-
-      
-    </DashboardLayout>  </center>
-
-
-
-
-    
+</DashboardLayout> 
+<Navbar /> 
+ </center>
+ 
   );
 }
+
+
 
 export default DocumentLinks;
