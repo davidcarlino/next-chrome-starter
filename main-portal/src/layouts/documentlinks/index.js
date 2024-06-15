@@ -1,3 +1,4 @@
+
 /**
 =========================================================
 * Argon Dashboard 2 MUI - v3.0.1
@@ -76,12 +77,6 @@ import team4 from "assets/images/team-4.jpg";
 import topcover from "assets/images/topcover.jpg";
 import { Public } from "@mui/icons-material";
 
-import Products from "./Routes/Products";
-import Home from "./Routes/Home";
-import Reports from "./Routes/Reports";
-import Navbar from "./Components/Navbar";
-import "./App.css";
-
 
 const bgImage =
 topcover;
@@ -102,15 +97,22 @@ function DocumentLinks () {
         backgroundSize: "cover",
       }}
     >
-
 <Header />
-</DashboardLayout> 
-<Navbar /> 
- </center>
- 
+
+
+<center>
+  
+      
+      </center>
+
+      
+    </DashboardLayout>  </center>
+
+
+
+
+    
   );
 }
-
-
 
 export default DocumentLinks;
