@@ -76,7 +76,7 @@ import team3 from "assets/images/team-3.jpg";
 import team4 from "assets/images/team-4.jpg";
 import topcover from "assets/images/topcover.jpg";
 import { Public } from "@mui/icons-material";
-
+import Component1 from "layouts/documentlinks/Documentlinksmodule";
 
 const bgImage =
 topcover;
@@ -86,7 +86,7 @@ topcover;
 function DocumentLinks () {
   return (
     <center>
-<DashboardLayout
+    <DashboardLayout
       alignItems="center" sx={{
         backgroundImage: ({ functions: { rgba, linearGradient }, palette: { gradients } }) =>
           `${linearGradient(
@@ -97,18 +97,20 @@ function DocumentLinks () {
         backgroundSize: "cover",
       }}
     >
-<Header />
+    <Header />
 
 
-<center>
+      <center>
   
       
       </center>
-
+      <Component1></Component1>
       
     </DashboardLayout>  </center>
 
-
+ 
+      
+ 
 
 
     

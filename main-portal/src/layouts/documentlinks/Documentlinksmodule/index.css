@@ -1,0 +1,21 @@
+//*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 1em/1.6 sans-serif;
+}
+
+.tab-nav {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+  }
+  
+  .tab-list::-webkit-scrollbar {
+    display: none;
+  }
