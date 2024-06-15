@@ -20,23 +20,23 @@ const Component1 = () => (
         </TabList>
         <TabPanel>
           <p>Husband of Marge; father of Bart, Lisa, and Maggie.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Homer_Simpson_2006.png/212px-Homer_Simpson_2006.png" alt="Homer Simpson" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Homer Simpson" />
         </TabPanel>
         <TabPanel>
           <p>Wife of Homer; mother of Bart, Lisa, and Maggie.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Marge_Simpson.png/220px-Marge_Simpson.png" alt="Marge Simpson" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Marge Simpson" />
         </TabPanel>
         <TabPanel>
           <p>Oldest child and only son of Homer and Marge; brother of Lisa and Maggie.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="Bart Simpson" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Bart Simpson" />
         </TabPanel>
         <TabPanel>
           <p>Middle child and eldest daughter of Homer and Marge; sister of Bart and Maggie.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Lisa_Simpson.png/200px-Lisa_Simpson.png" alt="Lisa Simpson" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Lisa Simpson" />
         </TabPanel>
         <TabPanel>
           <p>Youngest child and daughter of Homer and Marge; sister of Bart and Lisa.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Maggie_Simpson.png/223px-Maggie_Simpson.png" alt="Maggie Simpson" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Maggie Simpson" />
         </TabPanel>
       </Tabs>
     </TabPanel>
@@ -52,26 +52,27 @@ const Component1 = () => (
         </TabList>
         <TabPanel>
           <p>Protagonist, from the 20th Century. Delivery boy. Many times great-uncle to Professor Hubert Farnsworth. Suitor of Leela.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Philip_Fry.png/175px-Philip_Fry.png" alt="Philip J. Fry" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Philip J. Fry" />
         </TabPanel>
         <TabPanel>
           <p>Mutant cyclops. Captain of the Planet Express Ship. Love interest of Fry.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Turanga_Leela.png/150px-Turanga_Leela.png" alt="Turanga Leela" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Turanga Leela" />
         </TabPanel>
         <TabPanel>
           <p>A kleptomaniacal, lazy, cigar-smoking, heavy-drinking robot who is Fry&apos;s best friend. Built in Tijuana, Mexico, he is the Planet Express Ship&apos;s cook.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Bender_Rodriguez.png/220px-Bender_Rodriguez.png" alt="Bender Bending Rodriguez" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Bender Bending Rodriguez" />
         </TabPanel>
         <TabPanel>
           <p>Chinese-Martian intern at Planet Express. Fonfon Ru of Kif Kroker.</p>
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Bender Bending Rodriguez" />
         </TabPanel>
         <TabPanel>
           <p>Many times great-nephew of Fry. CEO and owner of Planet Express delivery company. Tenured professor of Mars University.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/FuturamaProfessorFarnsworth.png/175px-FuturamaProfessorFarnsworth.png" alt="Professor Hubert J. Farnsworth" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Professor Hubert J. Farnsworth" />
         </TabPanel>
         <TabPanel>
           <p>Alien from Decapod 10. Planet Express&apos; staff doctor and steward. Has a medical degree and Ph.D in art history.</p>
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Dr_John_Zoidberg.png/200px-Dr_John_Zoidberg.png" alt="Doctor John Zoidberg" />
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Doctor John Zoidberg" />
         </TabPanel>
       </Tabs>
     </TabPanel>
