@@ -6,37 +6,33 @@ import './App.css';
 const Component1 = () => (
   <Tabs forceRenderTabPanel defaultIndex={1}>
     <TabList>
-      <Tab>The Simpsons</Tab>
-      <Tab>Futurama</Tab>
+      <Tab>Compliance & Execution</Tab>
+      <Tab>Sales & Product</Tab>
     </TabList>
     <TabPanel>
       <Tabs forceRenderTabPanel>
         <TabList>
-          <Tab>Homer Simpson</Tab>
-          <Tab>Marge Simpson</Tab>
-          <Tab>Bart Simpson</Tab>
-          <Tab>Lisa Simpson</Tab>
-          <Tab>Maggie Simpson</Tab>
+        <Tab>Execution Request</Tab>
+          <Tab>Incidents and Complaints</Tab>
+          <Tab>Other Forms</Tab>
         </TabList>
         <TabPanel>
-          <p>Husband of Marge; father of Bart, Lisa, and Maggie.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Homer Simpson" />
+        <div className="navigatetolinkbutton">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScGl8TEUni9j-UxCK5GSyhnaJMafdRh_1y7ah1X3kAY-GF7Zg/viewform 
+
+" target="noopener" className="btn customButton x-large icon-after chev-right">Execution Request Form  ⮞</a>
+</div>
         </TabPanel>
         <TabPanel>
-          <p>Wife of Homer; mother of Bart, Lisa, and Maggie.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Marge Simpson" />
+        <div className="navigatetolinkbutton">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7TfO2dhr_YFrVwKSFUEmQXvlUGZbYRxoIkVj1rNCDnf-Suw/viewform
+" target="noopener" className="btn customButton x-large icon-after chev-right">Incidents and Complaints Form  ⮞</a>
+</div>
         </TabPanel>
         <TabPanel>
-          <p>Oldest child and only son of Homer and Marge; brother of Lisa and Maggie.</p>
+          <p>Nothing Here....yet</p>
+          <br></br>
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Bart Simpson" />
-        </TabPanel>
-        <TabPanel>
-          <p>Middle child and eldest daughter of Homer and Marge; sister of Bart and Maggie.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Lisa Simpson" />
-        </TabPanel>
-        <TabPanel>
-          <p>Youngest child and daughter of Homer and Marge; sister of Bart and Lisa.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Maggie Simpson" />
         </TabPanel>
       </Tabs>
     </TabPanel>

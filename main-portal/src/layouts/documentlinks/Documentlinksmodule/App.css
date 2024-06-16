@@ -19,6 +19,26 @@
     cursor: pointer;
   }
   
+  .navigatetolinkbutton {
+      border:1.7px solid #000000;
+      border-radius:3.1px;
+      padding:10px;
+      margin:10.4px;
+      background-color:#F9F9F9;
+      color:#000000;
+      font-weight:normal;
+      opacity:1;
+      transition:1s;
+  }
+  .navigatetolinkbutton:hover {
+    cursor:pointer; 
+    background-color:#ffffff;
+    opacity:0.9;
+    transition:1s;
+    color:#000000;
+  }
+
+
   .react-tabs__tab--selected {
     background: #fff;
     border-color: #aaa;
