@@ -30,46 +30,56 @@ const Component1 = () => (
 </div>
         </TabPanel>
         <TabPanel>
+        <br></br>
           <p>Nothing Here....yet</p>
           <br></br>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Bart Simpson" />
-        </TabPanel>
+          <p>Submit Feedback Below for any new links or updates.</p>
+          <br></br>
+          <div className="navigatetolinkbutton">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScPNcHHU8YAIJ3MsKHWE1kLRrhiso9BYW2YPMydf6r6jqH1_w/viewform?usp=sf_link" target="noopener" className="btn customButton x-large icon-after chev-right">Give Feedback  ⮞</a>
+</div>
+ </TabPanel>
       </Tabs>
     </TabPanel>
     <TabPanel>
       <Tabs forceRenderTabPanel>
         <TabList>
-          <Tab>Philip J. Fry</Tab>
-          <Tab>Turanga Leela</Tab>
-          <Tab>Bender Bending Rodriguez</Tab>
-          <Tab>Amy Wong</Tab>
-          <Tab>Professor Hubert J. Farnsworth</Tab>
-          <Tab>Doctor John Zoidberg</Tab>
+          <Tab>Sales Prospecting</Tab>
+          <Tab>Pepe</Tab>
+          <Tab>Other Forms</Tab>
+          
         </TabList>
         <TabPanel>
-          <p>Protagonist, from the 20th Century. Delivery boy. Many times great-uncle to Professor Hubert Farnsworth. Suitor of Leela.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Philip J. Fry" />
-        </TabPanel>
+        <br></br>
+          <div className="navigatetolinkbutton">
+        <a href="https://docs.google.com/forms/d/12VcmK66pzgaHeWhTI_YzDxZd1WB9TrbGDAvuPqrHtr4/viewform?edit_requested=true" target="noopener" className="btn customButton x-large icon-after chev-right">Investor Profiling Form  ⮞</a>
+</div>
+<div className="navigatetolinkbutton">
+        <a href="https://docs.google.com/forms/d/1SX7_3pQ9R0DmwFYSR9PKGxHPRrlkG-NbvkRuhObj44o/viewform?edit_requested=true" target="noopener" className="btn customButton x-large icon-after chev-right">Investor Risk Assessment Form  ⮞</a>
+</div> 
+ </TabPanel>
         <TabPanel>
-          <p>Mutant cyclops. Captain of the Planet Express Ship. Love interest of Fry.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Turanga Leela" />
-        </TabPanel>
+<img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Pepe" />
+         </TabPanel>
         <TabPanel>
-          <p>A kleptomaniacal, lazy, cigar-smoking, heavy-drinking robot who is Fry&apos;s best friend. Built in Tijuana, Mexico, he is the Planet Express Ship&apos;s cook.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Bender Bending Rodriguez" />
-        </TabPanel>
+        <br></br>
+          <p>Nothing Here....yet</p>
+          <br></br>
+          <p>Submit Feedback Below for any new links or updates.</p>
+          <br></br>
+          <div className="navigatetolinkbutton">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScPNcHHU8YAIJ3MsKHWE1kLRrhiso9BYW2YPMydf6r6jqH1_w/viewform?usp=sf_link" target="noopener" className="btn customButton x-large icon-after chev-right">Give Feedback  ⮞</a>
+</div>
+ </TabPanel>
         <TabPanel>
           <p>Chinese-Martian intern at Planet Express. Fonfon Ru of Kif Kroker.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Bender Bending Rodriguez" />
-        </TabPanel>
+          </TabPanel>
         <TabPanel>
           <p>Many times great-nephew of Fry. CEO and owner of Planet Express delivery company. Tenured professor of Mars University.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Professor Hubert J. Farnsworth" />
-        </TabPanel>
+           </TabPanel>
         <TabPanel>
           <p>Alien from Decapod 10. Planet Express&apos; staff doctor and steward. Has a medical degree and Ph.D in art history.</p>
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Doctor John Zoidberg" />
-        </TabPanel>
+             </TabPanel>
       </Tabs>
     </TabPanel>
   </Tabs>
