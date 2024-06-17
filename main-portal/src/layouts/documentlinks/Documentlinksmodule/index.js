@@ -109,7 +109,7 @@ const Component1 = () => (
             <Tabs forceRenderTabPanel>
               <TabList>
                 <Tab>Sales Prospecting</Tab>
-                <Tab>Pepe</Tab>
+                <Tab>Investor Relations</Tab>
                 <Tab>Other Forms</Tab>
                 
               </TabList>
@@ -123,7 +123,9 @@ const Component1 = () => (
                     </div> 
                     </TabPanel>
                     <TabPanel>
-                      <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Pepe" />
+                    <div className="navigatetolinkbutton">
+                    <a href="https://ipartners.my.salesforce.com/?locale=au" target="noopener" className="btn customButton x-large icon-after chev-right">Salesforce Login  ⮞</a>
+                    </div> 
                     </TabPanel>
                     <TabPanel>
                     <br></br>
@@ -176,6 +178,9 @@ const Component1 = () => (
                     </div>
                     <div className="navigatetolinkbutton">
                     <a href="https://www2.my.commbiz.commbank.com.au/Business/login" target="noopener" className="btn customButton x-large icon-after chev-right">Commbiz Login  ⮞</a>
+                    </div> 
+                    <div className="navigatetolinkbutton">
+                    <a href="https://ipartners.my.salesforce.com/?locale=au" target="noopener" className="btn customButton x-large icon-after chev-right">Salesforce Login  ⮞</a>
                     </div> 
                     </TabPanel>
                     <TabPanel>
