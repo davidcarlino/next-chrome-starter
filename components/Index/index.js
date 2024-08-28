@@ -15,7 +15,9 @@ export default function Index({ navigateToPage }) {
         <p className={styles.description}>
         </p>
         
-      	<button className={styles.portalButton} type="button" name="portalButton"  onclick="navigate()" ><a href="http://localhost:3000/argon-dashboard-material-ui" target="_blank">Go To Portal</a></button>
+        <a href="https://ipartners.atlassian.net/wiki/company-hub" target="_blank" rel="noopener noreferrer" className={styles.portalButton}>
+      Go To Portal
+    </a>
 
       </main>
     </div>
